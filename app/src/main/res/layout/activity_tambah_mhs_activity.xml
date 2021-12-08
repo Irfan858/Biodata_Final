@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".TambahMhsActivity">
+
+    <ImageView
+        android:id="@+id/profilePicture"
+        android:src="@drawable/ic_baseline_account_circle"
+        android:layout_width="300px"
+        android:layout_height="300px"
+        />
+    <Button
+        android:id="@+id/btnTambahFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30px"
+        android:text="Tambah Foto" />
+
+    <EditText
+        android:id="@+id/editNamaLengkap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24px"
+        android:paddingTop="14px"
+        android:hint="Nama Lengkap"
+        />
+    <EditText
+        android:id="@+id/editNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="14px"
+        android:layout_marginBottom="24px"
+        android:hint="NIM"
+        />
+    <EditText
+        android:id="@+id/editProdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="14px"
+        android:layout_marginBottom="24px"
+        android:hint="Prodi"
+        />
+    <EditText
+        android:id="@+id/editJk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="14px"
+        android:layout_marginBottom="24px"
+        android:hint="Jenis Kelamin"
+        />
+    <EditText
+        android:id="@+id/editAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="14px"
+        android:layout_marginBottom="24px"
+        android:hint="Alamat"
+        />
+    <Button
+        android:id="@+id/btnTambahData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#11d618"
+        android:text="Simpan Data" />
+
+</LinearLayout>
